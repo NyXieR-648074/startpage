@@ -1,0 +1,46 @@
+:root {
+  /** colors */
+  --color-name: custom;
+  --color-bg-shade: #242A2F;
+  --color-bg-base: #2D353B;
+  --color-bg-surface: #364047;
+  --color-bg-highlight: #3F4A53;
+  --color-fg-shade: #B9A478;
+  --color-fg-base: #D3C6AA;
+  --color-fg-surface: #D3C6AA;
+  --color-fg-highlight: #FFFFFF;
+  --color-primary-bg: #3a515d;
+  --color-primary-base: #7FBBB3;
+  --color-primary-fg: #E6F1F0;
+  --color-secondary-bg: #2d353b;
+  --color-secondary-base: #859289;
+  --color-secondary-fg: #CFD4D0;
+  --color-palette-red: #E06C75;
+  --color-palette-green: #98C379;
+  --color-palette-yellow: #E5C07B;
+  --color-palette-blue: #61AFEF;
+  --color-palette-purple: #C678DD;
+  --color-palette-cyan: #56B6C2;
+  --color-palette-orange: #FFBB7C;
+  
+  /** general */
+  --font-family: Jetbrains Mono;
+  --font-size: 1;
+  --display-image: block;
+
+  /** surface */
+  --surface-maxWidth: 1000px;
+  --surface-shadow: 6px 6px 0px rgb(58, 81, 93), 12px 12px 0px rgb(56.55555555555556, 77.88888888888889, 89.22222222222223), 18px 18px 0px rgb(55.111111111111114, 74.77777777777777, 85.44444444444444), 24px 24px 0px rgb(53.666666666666664, 71.66666666666667, 81.66666666666667), 30px 30px 0px rgb(52.22222222222222, 68.55555555555556, 77.88888888888889), 36px 36px 0px rgb(50.77777777777778, 65.44444444444444, 74.11111111111111), 42px 42px 0px rgb(49.333333333333336, 62.33333333333333, 70.33333333333334), 48px 48px 0px rgb(47.888888888888886, 59.22222222222222, 66.55555555555556), 54px 54px 0px rgb(46.44444444444444, 56.111111111111114, 62.77777777777778), 60px 60px 0px rgb(45, 53, 59);
+  --surface-borderRadius: 0px;
+
+  /** spacing */
+  --space-smallest: 0.125rem;
+  --space-small: 0.5rem;
+  --space-medium: 1rem;
+  --space-large: 1.5rem;
+  --space-largest: 3rem;
+
+  /** others */
+  --picture-size: 300px;
+  --group-count: 4;
+}
