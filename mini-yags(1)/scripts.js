@@ -48,7 +48,69 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"vvRgtrD7vnxxIa1j","label":"reddit","bookmarks":[{"id":"L4LyuBK0Azux639J","label":"r/unixporn","url":"https://www.reddit.com/r/unixporn/"},{"id":"DzjdOQFiGPxYSMpk","label":"r/swaywm","url":"https://www.reddit.com/r/swaywm/"},{"id":"dyYmIKaRLVMDYm4K","label":"r/NixOS","url":"https://www.reddit.com/r/NixOS/"},{"id":"gMQqshoCx5fBqMx3","label":"r/wallpaper","url":"https://www.reddit.com/r/wallpaper/"}]},{"id":"hSOmcuVHtdrRsTCt","label":"Social","bookmarks":[{"id":"aqMNVoh5FjU9dkaX","label":"YouTube","url":"https://www.youtube.com/"},{"id":"wYKONKq8XmH3XleV","label":"reddit","url":"https://www.reddit.com"}]},{"id":"lo1FevC3OcOBP7nn","label":"Nix","bookmarks":[{"id":"XBai84ptIMi1OWV3","label":"Nix Search","url":"https://search.nixos.org/packages"},{"id":"S2AbUaB0k2gIDDNM","label":"HM Search","url":"https://home-manager-options.extranix.com/"}]},{"id":"ygfnt6Hm9hYqUJTI","label":"GitHub","bookmarks":[{"id":"BiptUMPW7NSJfOd1","label":"GitHub","url":"https://github.com/"},{"id":"LS4N2sTOZpGuCQYr","label":"GitHub Profile","url":"https://github.com/NyXieR-648074"}]}]
+const bookmarks = [
+      {
+        "id":"hSOmcuVHtdrRsTCt",
+        "label":"Social",
+        "bookmarks":[{
+          "id":"aqMNVoh5FjU9dkaX",
+          "label":"YouTube",
+          "url":"https://www.youtube.com/"
+        },{
+          "id":"wYKONKq8XmH3XleV",
+          "label":"reddit",
+          "url":"https://www.reddit.com"
+        },{
+        "id":"L4LyuBK0Azux639J",
+        "label":"r/unixporn",
+        "url":"https://www.reddit.com/r/unixporn/"
+        }]
+      },
+
+      {
+        "id":"hSOmcuVHtdrRsTCt",
+        "label":"AI",
+        "bookmarks":[{
+          "id":"aqMNVoh5FjU9dkaX",
+          "label":"ChatGPT",
+          "url":"https://chatgpt.com/"
+        },{
+          "id":"wYKONKq8XmH3XleV",
+          "label":"Gemini",
+          "url":"https://gemini.google.com/app/"
+        },{
+        "id":"L4LyuBK0Azux639J",
+        "label":"Grok",
+        "url":"https://grok.com/"
+        }]
+      },
+      
+      {
+        "id":"lo1FevC3OcOBP7nn",
+        "label":"Nix",
+        "bookmarks":[{
+          "id":"XBai84ptIMi1OWV3",
+          "label":"Nix Search",
+          "url":"https://search.nixos.org/packages"
+        },{
+          "id":"S2AbUaB0k2gIDDNM",
+          "label":"HM Search",
+          "url":"https://home-manager-options.extranix.com/"
+        }]
+      },
+      
+      {
+        "id":"ygfnt6Hm9hYqUJTI",
+        "label":"GitHub",
+        "bookmarks":[{
+          "id":"BiptUMPW7NSJfOd1",
+          "label":"GitHub",
+          "url":"https://github.com/"
+        },{
+          "id":"LS4N2sTOZpGuCQYr",
+          "label":"GitHub Profile",
+          "url":"https://github.com/NyXieR-648074"
+        }]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
