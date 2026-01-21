@@ -77,7 +77,7 @@ body {
 
 .surface > img {
   height: var(--picture-size);
-  width: var(--picture-size);
+  width: auto;
   object-fit: cover;
   display: var(--display-image);
 }
