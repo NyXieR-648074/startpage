@@ -77,7 +77,7 @@ const bookmarks = [
         },{
           "id":"wYKONKq8XmH3XleV",
           "label":"Gemini",
-          "url":"https://gemini.google.com/app/"
+          "url":"https://gemini.google.com/"
         },{
         "id":"L4LyuBK0Azux639J",
         "label":"Grok",
