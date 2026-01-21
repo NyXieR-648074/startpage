@@ -8,20 +8,20 @@
   --color-fg-shade: #B9A478;
   --color-fg-base: #D3C6AA;
   --color-fg-surface: #D3C6AA;
-  --color-fg-highlight: #FFFFFF;
+  --color-fg-highlight: #D3C6AA;
   --color-primary-bg: #3a515d;
   --color-primary-base: #7FBBB3;
-  --color-primary-fg: #E6F1F0;
+  --color-primary-fg: #D3C6AA;
   --color-secondary-bg: #2d353b;
   --color-secondary-base: #859289;
-  --color-secondary-fg: #CFD4D0;
-  --color-palette-red: #E06C75;
-  --color-palette-green: #98C379;
-  --color-palette-yellow: #E5C07B;
+  --color-secondary-fg: #9DA9A0;
+  --color-palette-red: #E67E80;
+  --color-palette-green: #A7C080;
+  --color-palette-yellow: #DBBC7F;
   --color-palette-blue: #61AFEF;
   --color-palette-purple: #C678DD;
   --color-palette-cyan: #56B6C2;
-  --color-palette-orange: #FFBB7C;
+  --color-palette-orange: #E69875;
   
   /** general */
   --font-family: Jetbrains Mono;

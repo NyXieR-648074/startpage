@@ -87,7 +87,7 @@ const bookmarks = [
       
       {
         "id":"lo1FevC3OcOBP7nn",
-        "label":"Nix",
+        "label":"NixOS",
         "bookmarks":[{
           "id":"XBai84ptIMi1OWV3",
           "label":"Nix Search",
